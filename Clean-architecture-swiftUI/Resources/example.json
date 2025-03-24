@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": 11,
+      "name": "Item 1",
+      "description": "Item 1",
+      "price": 44.99
+    },
+    {
+      "id": 12,
+      "name": "Item 2",
+      "description": "Item 3",
+      "price": 99.99
+    },
+    {
+      "id": 13,
+      "name": "Item 3",
+      "description": "Item 3",
+      "price": 23.99
+    },
+    {
+      "id": 14,
+      "name": "Item 22",
+      "description": "Item 22",
+      "price": 32.99
+    }
+  ]
+}

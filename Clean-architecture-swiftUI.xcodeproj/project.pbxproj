@@ -29,12 +29,38 @@
 		54EE90812D8D901200F78855 /* Clean-architecture-swiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clean-architecture-swiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		54EE90632D8D901000F78855 /* Clean-architecture-swiftUI */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Clean-architecture-swiftUI";
-			sourceTree = "<group>";
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		54EE90F22D8DB98500F78855 /* Exceptions for "Clean-architecture-swiftUI" folder in "Clean-architecture-swiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Clean_architecture_swiftUIApp.swift,
+				Core/Model/ItemData.swift,
+				Core/Repository/ItemRepository.swift,
+				Core/UseCases/GetItemUseCase.swift,
+				Data/Network/NetworkManager.swift,
+				presentation/ViewModels/HomeViewModel/HomeViewModel.swift,
+				presentation/Views/ContentView.swift,
+				presentation/Views/HomeView.swift,
+				"Preview Content/Preview Assets.xcassets",
+				Resources/example.json,
+				Resources/Persistence.swift,
+			);
+			target = 54EE90602D8D901000F78855 /* Clean-architecture-swiftUI */;
 		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		54EE90F32D8DB98500F78855 /* Exceptions for "Clean-architecture-swiftUI" folder in "Compile Sources" phase from "Clean-architecture-swiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 54EE905D2D8D901000F78855 /* Sources */;
+			membershipExceptions = (
+				Clean_architecture_swiftUI.xcdatamodeld,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
 		54EE907A2D8D901200F78855 /* Clean-architecture-swiftUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Clean-architecture-swiftUITests";
@@ -43,6 +69,15 @@
 		54EE90842D8D901200F78855 /* Clean-architecture-swiftUIUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Clean-architecture-swiftUIUITests";
+			sourceTree = "<group>";
+		};
+		54EE90E32D8DB98500F78855 /* Clean-architecture-swiftUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				54EE90F22D8DB98500F78855 /* Exceptions for "Clean-architecture-swiftUI" folder in "Clean-architecture-swiftUI" target */,
+				54EE90F32D8DB98500F78855 /* Exceptions for "Clean-architecture-swiftUI" folder in "Compile Sources" phase from "Clean-architecture-swiftUI" target */,
+			);
+			path = "Clean-architecture-swiftUI";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +110,7 @@
 		54EE90582D8D901000F78855 = {
 			isa = PBXGroup;
 			children = (
-				54EE90632D8D901000F78855 /* Clean-architecture-swiftUI */,
+				54EE90E32D8DB98500F78855 /* Clean-architecture-swiftUI */,
 				54EE907A2D8D901200F78855 /* Clean-architecture-swiftUITests */,
 				54EE90842D8D901200F78855 /* Clean-architecture-swiftUIUITests */,
 				54EE90622D8D901000F78855 /* Products */,
@@ -107,9 +142,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				54EE90632D8D901000F78855 /* Clean-architecture-swiftUI */,
-			);
 			name = "Clean-architecture-swiftUI";
 			packageProductDependencies = (
 			);
@@ -132,6 +164,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				54EE907A2D8D901200F78855 /* Clean-architecture-swiftUITests */,
+				54EE90E32D8DB98500F78855 /* Clean-architecture-swiftUI */,
 			);
 			name = "Clean-architecture-swiftUITests";
 			packageProductDependencies = (
@@ -409,8 +442,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.telepromoter.ios.mdo.Clean-architecture-swiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -436,8 +472,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.telepromoter.ios.mdo.Clean-architecture-swiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
