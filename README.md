@@ -2,7 +2,7 @@
 
 ## Project Structure
 
-
+```
 MyApp
 │
 ├── Core
@@ -39,7 +39,7 @@ MyApp
     ├── SceneDelegate.swift
     └── MyApp.swift
 
-
+```
     
 ## Architecture Overview
 
