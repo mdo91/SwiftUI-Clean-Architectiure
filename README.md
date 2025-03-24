@@ -84,4 +84,4 @@ Handles UI and user interaction
 
 ## License
 
-[Include your license information here]
+MIT
